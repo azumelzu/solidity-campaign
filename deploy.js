@@ -3,8 +3,7 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-    'anger boy acoustic normal lesson chest shoulder name leader pair trade rescue',
-    'https://rinkeby.infura.io/v3/8763ca703dc94f10bb6d008ba57228eb'
+   // Configure infura provider here
   );
   
 const web3 = new Web3(provider);
